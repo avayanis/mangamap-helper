@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "MangaMap Helper",
+  "description": "Automatically show hidden content on MangaMap when using AdBlock.",
+  "version": "1.0",
+
+  "permissions": [
+    "webNavigation",
+    "*://www.mangamap.com/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.mangamap.com/*"
+      ],
+      "js": ["index.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
