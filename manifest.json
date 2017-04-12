@@ -10,6 +10,7 @@
     "*://www.mangamap.com/*",
     "*://www.mangapass.com/*",
     "*://www.manga360.com/*",
+    "*://www.manga99.com/*",
     "*://www.mangateen.com/*"
   ],
 
@@ -19,6 +20,7 @@
         "*://www.mangamap.com/*",
         "*://www.mangapass.com/*",
         "*://www.manga360.com/*",
+        "*://www.manga99.com/*",
         "*://www.mangateen.com/*"
       ],
       "js": ["index.js"],
