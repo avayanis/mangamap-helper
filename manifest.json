@@ -3,7 +3,7 @@
 
   "name": "MangaMap Helper",
   "description": "Automatically show hidden content on MangaMap when using AdBlock.",
-  "version": "1.4",
+  "version": "1.5",
 
   "permissions": [
     "webNavigation",
@@ -12,6 +12,7 @@
     "*://www.manga360.com/*",
     "*://www.manga99.com/*",
     "*://www.mangaball.com/*",
+    "*://www.mangadeep.com/*",
     "*://www.mangateen.com/*"
   ],
 
@@ -23,6 +24,7 @@
         "*://www.manga360.com/*",
         "*://www.manga99.com/*",
         "*://www.mangaball.com/*",
+        "*://www.mangadeep.com/*",
         "*://www.mangateen.com/*"
       ],
       "js": ["index.js"],
